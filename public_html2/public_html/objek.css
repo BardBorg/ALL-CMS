@@ -1,0 +1,113 @@
+#one{
+    position: relative;
+    width:20vw;
+    height:10vw;
+    background-color: rgb(95, 112, 177);
+    float: right;
+    /* margin-top:200px; */
+    border:solid 1px black;
+    cursor: pointer;
+}
+#ones{
+    position: relative;
+    width:20vw;
+    height:10vw;
+    background-color: rgb(108, 214, 38);
+    float: right;
+    /* margin-top:200px; */
+    border:solid 1px black;
+    cursor: pointer;
+    
+}
+#container{
+    position: relative;
+    display: flex; 
+    margin-top:17vw;
+    margin-left:13vw;
+   
+}
+#container > div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 12px;
+   
+
+}
+p{
+  position: relative;
+    font-family: tahoma, arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    float: right;
+    
+}
+
+button {
+  position: relative;
+    background-color: #FF7E00; /* Green */
+    border: solid 2px#4CAF50;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: tahoma, arial, sans-serif;
+    border-radius: 4px;
+    font-weight:700;
+  }
+  #butone {
+    position: relative;
+    background-color: #FF7E00; /* Green */
+    border: solid 2px#4CAF50;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    border-radius: 4px;
+    width:27vw;
+  }
+  #obraz, #obrazek{
+    position: relative;
+    font-size:15px;
+    width:12vw;
+    
+  }
+  #de{
+    margin-bottom:20px;
+  }
+  #art{
+    position: relative;
+    /* margin-top:-10%; */
+   
+
+  }
+
+  .nav{
+    cursor: pointer;
+  }
+  
+  #bu{
+      
+      background-color:blue; /* Green */
+    border: solid 2px#4CAF50;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: tahoma, arial, sans-serif;
+    border-radius: 4px;
+    font-weight:700;
+  }
+  }
