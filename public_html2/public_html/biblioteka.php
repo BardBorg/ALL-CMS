@@ -99,7 +99,7 @@ error_reporting(0);
 // Include the database configuration file
 $id=$_COOKIE['clicked_id'];
 // echo $id;
-$conn = new mysqli("localhost", "id20097600_root", "uV1PVi/)dRNnx&4*","id20097600_prod");
+$conn = new mysqli("localhost", "id20097600_root", );
 // Get images from the database
 $query =  mysqli_query($conn,"SELECT * FROM images where id='$id'");
 
