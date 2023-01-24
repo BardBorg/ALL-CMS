@@ -222,14 +222,14 @@ window.onload=function ustaw(){
     var content="<?php echo $t2;?>";
     document.getElementById("tytul").value = title;
     document.getElementById("content").value = content;
-    var one=0;
-    document.cookie="val=" +one;
-    var warunek=0;
-    document.cookie="war=" +warunek;
+    
+    
+    
+    
     var nr="<?php echo $id;?>";
     var high=document.getElementById(nr)
       high.style.fontWeight="bold"
-      console.log("why")
+      
   }
 
   
